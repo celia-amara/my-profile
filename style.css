@@ -1,0 +1,123 @@
+html{
+	font-family: Century Gothic;
+}
+
+body{
+	background-image: url(https://img.freepik.com/photos-premium/surface-vierge-texturee-grungy-fond-gris-abstrait-fond-affiche-sale-papier-peint-sto-grain-rugueux_124507-10829.jpg);
+	background-size: cover;
+	text-align: center;
+	color: #BABABA;
+}
+
+div.container{
+	width: 750px;
+	margin: auto;
+}
+
+h1{
+	font-size: 100px;
+	background-color: #303030;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+div.celia{
+	width: 750px;
+	display: block;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 30px;
+	background-color: #303030;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+
+div.famille{
+	width: 750px;
+	display: block;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 30px;
+	background-color: #303030;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+
+div.netflix{
+	width: 750px;
+	display: block;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 30px;
+	background-color: #303030;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+
+div.voyage{
+	width: 750px;
+	display: block;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 30px;
+	background-color: #303030;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+
+div.horreur{
+	width: 750px;
+	display: block;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 30px;
+	background-color: #303030;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+
+div.insta{
+	width: 750px;
+	display: block;
+	align-items: flex-start;
+	justify-content: center;
+	font-size: 30px;
+	background-color: #303030;
+	margin: auto;
+	border-radius: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+}
+
+div.insta a{
+	color: #BABABA;
+	font-size: 70px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  div.container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div.container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div.container {
+    width: 300px;
+  }
+}
